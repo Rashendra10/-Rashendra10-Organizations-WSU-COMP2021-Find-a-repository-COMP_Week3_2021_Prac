@@ -1,1 +1,201 @@
 /* Add your css rules to this file for week 3 exercise 2 */
+/* Background color */
+html {
+    background-color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 100%;
+    color: black;
+    margin: 50px 70px;
+}
+
+/* Headings font */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Josefin Slab', Georgia, serif;
+}
+
+/* H1 styling */
+h1 {
+    font-size: 250%;
+    color: #172457;
+    text-align: center;
+}
+
+/* H2 styling */
+h2 {
+    font-size: 200%;
+    color: #172457;
+    display: flex;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+/* H3 styling */
+h3 {
+    font-size: 170%;
+    color: #7B85AD;
+    text-transform: capitalize;
+}
+
+/* H4 styling */
+h4 {
+    font-size: 140%;
+    color: #7B85AD;
+    background-color: #f0f0f0;
+    text-transform: capitalize;
+}
+
+/* H5 styling */
+h5 {
+    font-size: 120%;
+    color: black;
+}
+.main{
+    padding: 20px;
+}
+/* .main h2{
+   left: 200px; 
+} */
+.data{
+     left: 400px;
+     position: absolute; 
+     top: 30px;
+    /* padding-top: 30px;
+   text-align: center; */
+   /* padding-bottom: -200px; */ 
+   
+}
+
+/* Navbar Container */
+.navbar {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space items evenly to the edges */
+    align-items: center; /* Center items vertically */
+    padding: 10px 20px; /* Add padding around the navbar */
+    background-color: #172457; /* Dark blue background */
+    color: #FFFFFF; /* White text color */
+    position: fixed; /* Fix the navbar position to the top */
+    top: 0; /* Align the navbar to the top of the page */
+    left: 0; /* Align the navbar to the left edge of the page */
+    width: 100%; /* Make the navbar span the full width of the page */
+    z-index: 1000; /* Ensure the navbar stays above other content */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a slight shadow for visual separation */
+}
+
+/* Left-aligned content */
+.dataReport {
+    margin: 0; /* Remove default margin */
+    text-align: left; /* Align text to the left */
+    color: #FFFFFF; /* White text color */
+    font-size: 0.9em; /* Slightly smaller text */
+}
+
+/* Right-aligned content */
+.student_Id {
+    margin: 0; /* Remove default margin */
+    padding-right: 30px;
+    text-align: right; /* Align text to the right */
+    color: #FFFFFF; /* White text color */
+    font-size: 1.0em; /* Slightly larger text */
+}
+
+
+/* Ordered list styling */
+ol li {
+    padding-left: 20px;
+}
+
+/* Image and caption styling */
+figure img {
+    margin: 0 auto;
+}
+
+figure {
+    text-align: center;
+    font-size: 70%;
+    padding: 0 15px;
+}
+
+figure.fig1 img {
+    width: 100%;
+    max-width: 400px;
+    min-width: 300px;
+    float: right;
+    padding-left: 25px;
+}
+
+figure.fig2 img {
+    width: 100%;
+    max-width: 700px;
+    min-width: 300px;
+    padding: 10px 15px;
+}
+
+figure figcaption {
+    text-align: justify;
+    font-style: italic;
+    padding-bottom: 15px;
+    border-bottom: 1px solid black;
+}
+
+/* Navigation bar styling */
+nav {
+    background-color: #172457;
+    font-size: 120%;
+}
+
+nav a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    display: block;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #7B85AD;
+}
+
+/* Non-navigation links */
+a {
+    color: black;
+    font-style: italic;
+}
+
+a:visited {
+    color: #7B85AD;
+}
+
+/* Top section styling */
+header {
+    position: relative;
+    text-align: right;
+    padding: 10px;
+}
+
+header h1,
+header p {
+    color: white;
+    font-size: 70%;
+    font-style: italic;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #f0f0f0;
+    font-size: 70%;
+    padding: 2px 20px;
+    border-radius: 10px;
+}
+
+footer p:first-of-type {
+    margin-top: 0;
+}
+
+/* Related section styling */
+aside {
+    padding: 0 20px;
+    margin-bottom: 30px;
+    border: 1px dashed black;
+}
